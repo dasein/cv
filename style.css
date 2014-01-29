@@ -1,0 +1,88 @@
+/*
+
+Stylesheet for Docutils.
+
+:Author: Herbert Pfennig
+:Contact: dasein555@gmail.com
+:Date: 2014/01/26
+:Version: 1.0.0
+:Copyright: This stylesheet has been placed in the public domain.
+
+Extends the standard docutils style sheet (e.g. html4css1.css) with some
+resume markup inspired by the zenburn color palette
+
+*/
+
+body {
+    margin-right: auto;
+    margin-left: 1in;
+    color: #333;
+    font:12px/1.5 Helvetica, Arial, Sans Serif; *font-size:small;
+    width: 6.0in;
+}
+
+h1 {
+    color: #555;
+}
+
+.section h1 {
+    -webkit-transform: translate(-100%, 0%) rotate(-90deg);
+    -webkit-transform-origin: 100% 0%;
+    font-size: 10pt;
+    font-weight: normal;
+    letter-spacing: 3px;
+    position: absolute;
+    padding: 0 1em;
+    margin: 0;
+    left:0;
+    top:0;
+    font-family: serif;
+    color: rgb(38,139,210);
+}
+
+.section {
+    padding: 1em 0cm 0cm 3em;
+    margin: 0 0 1em 0;
+    border-top: 1px solid rgb(38,139,210);
+    position: relative;
+}
+
+.summary {
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+    background-color: #98C9EC;
+}
+
+.myname {
+    display: table-cell;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(38,139,210);
+    font-size: 16px;
+}
+
+.contact {
+    display: table-cell;
+    white-space: nowrap;
+    text-align: right;
+    margin-right: 2em;
+}
+
+.jobtitle {
+    margin: 0;
+    padding: 0;
+}
+
+.notes {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: rgb(38,139,210);
+}
+
+.tools {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #859900;
+}
