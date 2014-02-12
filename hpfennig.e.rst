@@ -13,10 +13,11 @@ Herbert Pfennig
 
 .. class:: summary
 
-Internet handyman with over 14 years of experience tackling new technologies in
-the IT sphere. Over the years I have built up experience in the areas of
-Systems Performance Testing, Test Automation, Systems and Network
-Administration, Internal Tools Development and Release Engineering. 
+Internet handyman with over 14 years of experience in constructing and
+tuning startup infrastructure. Over the years I have built up
+experience in Systems Performance Testing, Test Automation, Systems
+and Network Administration, Internal Tools Development and Release
+Engineering.
 
 ------------------------------------------------------------
 skillset
@@ -48,13 +49,13 @@ employment
 .. class:: tools
 ..
 
-	Tools: unittest2, jenkins, buildbot, git, github enterprise, rpmbuild, gcc, make, gpxe, vsphere, unittest2, redis, c++, gcc
+	Tools: unittest2, jenkins, buildbot, git, github enterprise, rpmbuild, make, gpxe, vsphere, redis, c++, gcc
 
-* Responsible for build, test and release pipeline for product written in C++ and Python (rpm distribution)
+* Owned and operated the build, test and rpm-based release pipeline for product written in C++ and Python
 * Automated developer workflow using GitHub API (auto merge, backport fixes, code linting)
 * Developed and deployed consistent build, dev and test environments on ESXi infrastructure
-* Built CentOS rpm packages and internal install infrastructure for thirdparty dependencies
-* Provided training and process around git best practices
+* Built CentOS rpm packages and internal install infrastructure for third-party dependencies
+* Created git and process best practices, and trained the organization
 
 .. class:: jobtitle
 ..
@@ -69,8 +70,8 @@ employment
 	Tools: nosetests, tornado, webpolygraph, squid, varnish, apache traffic server, nginx, mongodb, java
 
 * Automated performance testing against forward proxy infrastructure
-* Created Limelight Test Framework (LTF) used by QA automation for end to end testing
-* Built out and managed 30+ node QA lab with one click unattended install of production\\test Ubuntu, CentOS and FreeBSD platforms
+* Created Limelight Test Framework (LTF) used by QA automation for end-to-end testing
+* Built out and managed 30+ node QA lab with one-click unattended install of production\\test Ubuntu, CentOS and FreeBSD platforms
 
 .. class:: jobtitle
 ..
@@ -89,9 +90,9 @@ employment
 
 	Tools: nosetests, cisco catalyst 4948, web polygraph, django, mysqld, postgres, ldap, cvs
 
-* Lead engineer responsible for automating performance testing
+* Invented and owned automated performance testing
 * Designed and built performance lab test environment
-* Performed root cause analysis for performance escalations
+* Hunted down root cause failures for major production systems
 
 .. class:: jobtitle
 ..
