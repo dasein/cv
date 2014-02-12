@@ -19,15 +19,15 @@ Systems Performance Testing, Test Automation, Systems and Network
 Administration, Internal Tools Development and Release Engineering. 
 
 ------------------------------------------------------------
-cur skillset
+skillset
 ------------------------------------------------------------
 
 | **OS:**             FreeBSD, Linux, OSX
 | **Platforms:**      Bare Metal (construction and troubleshooting), Virtualbox, LXC, VMWare
 | **Languages:**      Python, Shell scripting (sh, bash)
 | **Protocols:**      HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP
-| **Tools:**          git, github v3 api, web polygraph, jenkins, buildbot, nosetests, make, rpmbuild, tornado 
-| **Learning:**       packer.io, vagrant, puppet
+| **Tools:**          Git, Github v3 API, Web Polygraph, Jenkins, Buildbot, nosetests, make, rpmbuild, tornado 
+| **Learning:**       Packer, Vagrant, Puppet
 
 ------------
 employment
@@ -43,7 +43,7 @@ employment
 .. class:: notes
 ..
 
-	Acquired by EMC Inc. in 2/20012
+	Acquired by EMC Inc. in 2/2012
 
 .. class:: tools
 ..
@@ -106,7 +106,7 @@ employment
 .. class:: tools
 ..
 
-	Tools: Silk Test, Interjet, CAIT, CDMA, qmail, djbdns, freeswan, and many more ...
+	Tools: CAIT, CDMA, Jmeter, qmail, djbdns, freeswan, and many more ...
 
 * Lead test engineer on many high profile client\\server projects.
 * System and Network Administrator for both lab and corporate infrastructure
