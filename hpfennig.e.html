@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
-<title></title>
+<meta name="generator" content="Docutils 0.14: http://docutils.sourceforge.net/" />
+<title>hpfennig.e.rst</title>
 <style type="text/css">
 
 /*
 :Author: David Goodger (goodger@python.org)
-:Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
 :Copyright: This stylesheet has been placed in the public domain.
 
 Default cascading style sheet for the HTML output of Docutils.
@@ -36,6 +36,14 @@ table.borderless td, table.borderless th {
 
 .hidden {
   display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
 
 a.toc-backref {
   text-decoration: none ;
@@ -161,18 +169,23 @@ h2.subtitle {
 hr.docutils {
   width: 75% }
 
-img.align-left, .figure.align-left, object.align-left {
+img.align-left, .figure.align-left, object.align-left, table.align-left {
   clear: left ;
   float: left ;
   margin-right: 1em }
 
-img.align-right, .figure.align-right, object.align-right {
+img.align-right, .figure.align-right, object.align-right, table.align-right {
   clear: right ;
   float: right ;
   margin-left: 1em }
 
 img.align-center, .figure.align-center, object.align-center {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
   margin-left: auto;
   margin-right: auto;
 }
@@ -193,6 +206,15 @@ div.align-right {
 
 /* div.align-center * { */
 /*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
 
 ol.simple, ul.simple {
   margin-bottom: 1em }
@@ -438,28 +460,45 @@ h1 {
 <p class="myname">Herbert Pfennig</p>
 <p class="contact"><strong>E:</strong> <a class="reference external" href="mailto:dasein555&#64;gmail.com">dasein555&#64;gmail.com</a>
 <strong>L:</strong> Redwood City, CA</p>
-<p class="summary">Internet handyman with over 14 years of experience in constructing and
-tuning startup infrastructure. Over the years I have built up
-experience in Systems Performance Testing, Test Automation, Systems
-and Network Administration, Internal Tools Development and Release
-Engineering.</p>
+<p class="summary">Internet handyman with over 14 years of experience working in startups. I
+enjoy solving problems and building infrastructure to help engineers get
+stuff done through automation. Over the years I have built up experience in
+Test Automation, Systems and Network Administration, Internal Tools
+Development and Release Engineering.</p>
 </div>
 <div class="section" id="skillset">
 <h1>skillset</h1>
 <div class="line-block">
-<div class="line"><strong>OS:</strong>             FreeBSD, Linux, OSX</div>
-<div class="line"><strong>Platforms:</strong>      Bare Metal (construction and troubleshooting), Virtualbox, LXC, VMWare</div>
-<div class="line"><strong>Languages:</strong>      Python, Shell scripting (sh, bash)</div>
-<div class="line"><strong>Protocols:</strong>      HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP</div>
-<div class="line"><strong>Tools:</strong>          Git, Github v3 API, Web Polygraph, Jenkins, Buildbot, nosetests, make, rpmbuild, tornado</div>
-<div class="line"><strong>Learning:</strong>       Packer, Vagrant, Puppet</div>
+<div class="line"><strong>OS:</strong>             Linux, OSX, FreeBSD</div>
+<div class="line"><strong>Platforms:</strong>      Docker, AWS, GCE, Kubernetes, Virtualbox, VMWare</div>
+<div class="line"><strong>Languages:</strong>      Python, Shell scripting, with some GO, C, C++ etc.</div>
+<div class="line"><strong>Internet:</strong>       HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP, UDP</div>
+<div class="line"><strong>Tools:</strong>          Git, Gerrit, Github Enterprise, Jenkins, GNUmake, BSDMake,
+Ansible, Terraform, Packer, Sumologic, Datadog, Quay</div>
+<div class="line"><strong>Learning:</strong>       Concourse CI, GO</div>
 </div>
 </div>
 <div class="section" id="employment">
 <h1>employment</h1>
 <!--  -->
 <blockquote class="jobtitle">
-<em>[2/2012 - Current]</em> :: <strong>Principal Release Engineer</strong> :: <a class="reference external" href="http://www.emc.com/domains/silvertail/index.htm">Silvertail Systems Inc.</a></blockquote>
+<em>[07/2014 - Current]</em> :: <strong>ReleaseTools Engineer</strong> :: <a class="reference external" href="https://brkt.com/">Bracket Computing</a></blockquote>
+<!--  -->
+<blockquote class="notes">
+Acquired by VMware Inc. in 4/2018</blockquote>
+<!--  -->
+<blockquote class="tools">
+Tools: aws, gce, docker, kubernetes, jenkins, git, gerrit, packer</blockquote>
+<ul class="simple">
+<li>Migrated company build infrastructure to use a Docker based build pipeline</li>
+<li>Developed and rolled out the continuous delivery pipeline for hosted
+infrastructure running in AWS on Kubernetes</li>
+<li>Implemented a Git precommit workflow with Gerrit and Jenkins for all
+internal repos to ensure code review and code quality consistency</li>
+</ul>
+<!--  -->
+<blockquote class="jobtitle">
+<em>[02/2012 - 07/2014]</em> :: <strong>Principal Release Engineer</strong> :: <a class="reference external" href="http://www.emc.com/domains/silvertail/index.htm">Silvertail Systems Inc.</a></blockquote>
 <!--  -->
 <blockquote class="notes">
 Acquired by EMC Inc. in 2/2012</blockquote>
@@ -467,15 +506,15 @@ Acquired by EMC Inc. in 2/2012</blockquote>
 <blockquote class="tools">
 Tools: unittest2, jenkins, buildbot, git, github enterprise, rpmbuild, make, gpxe, vsphere, redis, c++, gcc</blockquote>
 <ul class="simple">
-<li>Owned and operated the build, test and rpm-based release pipeline for product written in C++ and Python</li>
+<li>Owned the build, test and rpm-based release pipeline for product written in C++ and Python</li>
 <li>Automated developer workflow using GitHub API (auto merge, backport fixes, code linting)</li>
 <li>Developed and deployed consistent build, dev and test environments on ESXi infrastructure</li>
 <li>Built CentOS rpm packages and internal install infrastructure for third-party dependencies</li>
-<li>Created git and process best practices, and trained the organization</li>
+<li>Trained the orginization with git process and best practices</li>
 </ul>
 <!--  -->
 <blockquote class="jobtitle">
-<em>[07/2010 - 2/2012]</em> :: <strong>Senior Performance Engineer</strong> :: <a class="reference external" href="http://en.wikipedia.org/wiki/Limelight_Networks">Limelight Networks Inc.</a></blockquote>
+<em>[07/2010 - 02/2012]</em> :: <strong>Senior Performance Engineer</strong> :: <a class="reference external" href="http://en.wikipedia.org/wiki/Limelight_Networks">Limelight Networks Inc.</a></blockquote>
 <!--  -->
 <blockquote class="tools">
 Tools: nosetests, tornado, webpolygraph, squid, varnish, apache traffic server, nginx, mongodb, java</blockquote>
@@ -486,7 +525,7 @@ Tools: nosetests, tornado, webpolygraph, squid, varnish, apache traffic server, 
 </ul>
 <!--  -->
 <blockquote class="jobtitle">
-<em>[05/2004 - 7/2010]</em> :: <strong>Network Engineer</strong> :: <a class="reference external" href="http://en.wikipedia.org/wiki/IronPort">Ironport Systems Inc.</a></blockquote>
+<em>[05/2004 - 07/2010]</em> :: <strong>Network Engineer</strong> :: <a class="reference external" href="http://en.wikipedia.org/wiki/IronPort">Ironport Systems Inc.</a></blockquote>
 <!--  -->
 <blockquote class="notes">
 Acquired by Cisco Systems Inc. in 2/2007 and promoted from Performance Test Engineer</blockquote>
@@ -494,7 +533,7 @@ Acquired by Cisco Systems Inc. in 2/2007 and promoted from Performance Test Engi
 <blockquote class="tools">
 Tools: nosetests, cisco catalyst 4948, web polygraph, django, mysqld, postgres, ldap, cvs</blockquote>
 <ul class="simple">
-<li>Invented and owned automated performance testing</li>
+<li>Owned performance testing for MTA written in stackless Python</li>
 <li>Designed and built performance lab test environment</li>
 <li>Hunted down root cause failures for major production systems</li>
 </ul>

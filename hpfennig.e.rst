@@ -13,22 +13,23 @@ Herbert Pfennig
 
 .. class:: summary
 
-Internet handyman with over 14 years of experience in constructing and
-tuning startup infrastructure. Over the years I have built up
-experience in Systems Performance Testing, Test Automation, Systems
-and Network Administration, Internal Tools Development and Release
-Engineering.
+Internet handyman with over 14 years of experience working in startups. I
+enjoy solving problems and building infrastructure to help engineers get
+stuff done through automation. Over the years I have built up experience in
+Test Automation, Systems and Network Administration, Internal Tools
+Development and Release Engineering.
 
 ------------------------------------------------------------
 skillset
 ------------------------------------------------------------
 
-| **OS:**             FreeBSD, Linux, OSX
-| **Platforms:**      Bare Metal (construction and troubleshooting), Virtualbox, LXC, VMWare
-| **Languages:**      Python, Shell scripting (sh, bash)
-| **Protocols:**      HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP
-| **Tools:**          Git, Github v3 API, Web Polygraph, Jenkins, Buildbot, nosetests, make, rpmbuild, tornado 
-| **Learning:**       Packer, Vagrant, Puppet
+| **OS:**             Linux, OSX, FreeBSD
+| **Platforms:**      Docker, AWS, GCE, Kubernetes, Virtualbox, VMWare
+| **Languages:**      Python, Shell scripting, with some GO, C, C++ etc.
+| **Internet:**       HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP, UDP
+| **Tools:**          Git, Gerrit, Github Enterprise, Jenkins, GNUmake, BSDMake,
+                      Ansible, Terraform, Packer, Sumologic, Datadog, Quay
+| **Learning:**       Concourse CI, GO
 
 ------------
 employment
@@ -37,7 +38,30 @@ employment
 .. class:: jobtitle
 ..
 
-	*[2/2012 - Current]* :: **Principal Release Engineer** :: `Silvertail Systems Inc.`_
+	*[07/2014 - Current]* :: **Release\Tools Engineer** :: `Bracket Computing`_
+
+	.. _Bracket Computing: https://brkt.com/
+
+.. class:: notes
+..
+
+	Acquired by VMware Inc. in 4/2018
+
+.. class:: tools
+..
+
+	Tools: aws, gce, docker, kubernetes, jenkins, git, gerrit, packer
+
+* Migrated company build infrastructure to use a Docker based build pipeline
+* Developed and rolled out the continuous delivery pipeline for hosted
+  infrastructure running in AWS on Kubernetes
+* Implemented a Git precommit workflow with Gerrit and Jenkins for all
+  internal repos to ensure code review and code quality consistency
+
+.. class:: jobtitle
+..
+
+	*[02/2012 - 07/2014]* :: **Principal Release Engineer** :: `Silvertail Systems Inc.`_
 
 	.. _Silvertail Systems Inc.: http://www.emc.com/domains/silvertail/index.htm
 
@@ -51,16 +75,16 @@ employment
 
 	Tools: unittest2, jenkins, buildbot, git, github enterprise, rpmbuild, make, gpxe, vsphere, redis, c++, gcc
 
-* Owned and operated the build, test and rpm-based release pipeline for product written in C++ and Python
+* Owned the build, test and rpm-based release pipeline for product written in C++ and Python
 * Automated developer workflow using GitHub API (auto merge, backport fixes, code linting)
 * Developed and deployed consistent build, dev and test environments on ESXi infrastructure
 * Built CentOS rpm packages and internal install infrastructure for third-party dependencies
-* Created git and process best practices, and trained the organization
+* Trained the orginization with git process and best practices
 
 .. class:: jobtitle
 ..
 
-	*[07/2010 - 2/2012]* :: **Senior Performance Engineer** :: `Limelight Networks Inc.`_
+	*[07/2010 - 02/2012]* :: **Senior Performance Engineer** :: `Limelight Networks Inc.`_
 
 	.. _Limelight Networks Inc.: http://en.wikipedia.org/wiki/Limelight_Networks
 
@@ -76,7 +100,7 @@ employment
 .. class:: jobtitle
 ..
 
-	*[05/2004 - 7/2010]* :: **Network Engineer** :: `Ironport Systems Inc.`_
+	*[05/2004 - 07/2010]* :: **Network Engineer** :: `Ironport Systems Inc.`_
 
 	.. _Ironport Systems Inc.: http://en.wikipedia.org/wiki/IronPort
 
@@ -90,7 +114,7 @@ employment
 
 	Tools: nosetests, cisco catalyst 4948, web polygraph, django, mysqld, postgres, ldap, cvs
 
-* Invented and owned automated performance testing
+* Owned performance testing for MTA written in stackless Python
 * Designed and built performance lab test environment
 * Hunted down root cause failures for major production systems
 
@@ -137,4 +161,3 @@ random
 Fluent in German and Spanish. Conversant in Swiss German
 
 Builder, Homebrewer, Bike Commuter, Climber and Dad
-

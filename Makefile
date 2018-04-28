@@ -1,13 +1,18 @@
-# Make my resume and stuff
+.PHONY: release clean html pdf
 
-.DEFAULT_GOAL := all
-.PHONY : all
-
-all: hpfennig.e.html
-
-%.html: %.rst
-	rst2html.py --stylesheet=html4css1.css,style.css $< > $@
-	open $@
+release: html pdf
 
 clean:
-	rm *.html
+	rm -f *.pdf *.html
+
+html: hpfennig.e.html
+	open $^
+
+pdf: hpfennig.e.pdf
+	open $^
+
+%.html: %.rst
+	rst2html.py --stylesheet=html4css1.css,style.css $< $@
+
+%.pdf: %.html
+	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-gpu --headless --print-to-pdf=$@ $^
