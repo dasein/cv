@@ -13,11 +13,11 @@ Herbert Pfennig
 
 .. class:: summary
 
-Internet handyman with over 14 years of experience working in startups. I
-enjoy solving problems and building infrastructure to help engineers get
-stuff done through automation. Over the years I have built up experience in
-Test Automation, Systems and Network Administration, Internal Tools
-Development and Release Engineering.
+I am an Internet handyman with over 14 years of experience working in
+startups. I enjoy solving problems and building infrastructure to get stuff
+done through automation. Over the years I have built up experience in Test
+Automation, Systems and Network Administration, Internal Tools Development
+and Release Engineering.
 
 ------------------------------------------------------------
 skillset
@@ -25,11 +25,11 @@ skillset
 
 | **OS:**             Linux, OSX, FreeBSD
 | **Platforms:**      Docker, AWS, GCE, Kubernetes, Virtualbox, VMWare
-| **Languages:**      Python, Shell scripting, with some GO, C, C++ etc.
+| **Languages:**      Python, Shell scripting, with some Go, C, C++ etc.
 | **Internet:**       HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP, UDP
 | **Tools:**          Git, Gerrit, Github Enterprise, Jenkins, GNUmake, BSDMake,
-                      Ansible, Terraform, Packer, Sumologic, Datadog, Quay
-| **Learning:**       Concourse CI, GO
+                      Ansible, Terraform, Packer, Sumologic, Datadog, Quay, Minikube
+| **Learning:**       Concourse CI, Go
 
 ------------
 employment
@@ -38,7 +38,7 @@ employment
 .. class:: jobtitle
 ..
 
-	*[07/2014 - Current]* :: **Release\Tools Engineer** :: `Bracket Computing`_
+	*[07/2014 - Current]* :: **Build Release\Tools Engineer** :: `Bracket Computing`_
 
 	.. _Bracket Computing: https://brkt.com/
 
@@ -50,13 +50,16 @@ employment
 .. class:: tools
 ..
 
-	Tools: aws, gce, docker, kubernetes, jenkins, git, gerrit, packer
+	Tools: aws, gce, docker, kubernetes, minikube, jenkins, git, gerrit, packer, freebsd, alpine linux, go
 
-* Migrated company build infrastructure to use a Docker based build pipeline
+* Migrated local development and hosted build infrastructure to use a
+  Docker based build pipeline
 * Developed and rolled out the continuous delivery pipeline for hosted
   infrastructure running in AWS on Kubernetes
 * Implemented a Git precommit workflow with Gerrit and Jenkins for all
-  internal repos to ensure code review and code quality consistency
+  internal repos to ensure code review, code compliance and testing
+* Deployed build and stage architecture in both GCE and AWS for
+  our hosted product and build/test environments
 
 .. class:: jobtitle
 ..
