@@ -38,7 +38,7 @@ employment
 .. class:: jobtitle
 ..
 
-	*[07/2014 - Current]* :: **Build Release\Tools Engineer** :: `Bracket Computing`_
+	*[07/2014 - Current]* :: **Software Deployment & Automation Engineer** :: `Bracket Computing`_
 
 	.. _Bracket Computing: https://brkt.com/
 
