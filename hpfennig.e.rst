@@ -35,10 +35,30 @@ skillset
 employment
 ------------
 
+
 .. class:: jobtitle
 ..
 
-	*[07/2014 - Current]* :: **Software Deployment & Automation Engineer** :: `Bracket Computing`_
+	*[06/2018 - Current]* :: **Staff DevOps Engineer** :: `VMware`_
+
+	.. _VMware: https://www.vmware.com/
+
+.. class:: notes
+..
+
+	Current Employment
+
+.. class:: tools
+..
+
+	Tools: TBD
+
+* TBD
+
+.. class:: jobtitle
+..
+
+	*[07/2014 - 05/2018]* :: **Release and Tools Engineer** :: `Bracket Computing`_
 
 	.. _Bracket Computing: https://brkt.com/
 
@@ -71,7 +91,7 @@ employment
 .. class:: notes
 ..
 
-	Acquired by EMC Inc. in 2/2012
+	Acquired by EMC Inc. in 10/2012
 
 .. class:: tools
 ..
@@ -87,7 +107,7 @@ employment
 .. class:: jobtitle
 ..
 
-	*[07/2010 - 02/2012]* :: **Senior Performance Engineer** :: `Limelight Networks Inc.`_
+	*[07/2010 - 02/2012]* :: **Senior Performance Test Engineer** :: `Limelight Networks Inc.`_
 
 	.. _Limelight Networks Inc.: http://en.wikipedia.org/wiki/Limelight_Networks
 
