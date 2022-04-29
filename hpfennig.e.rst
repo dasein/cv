@@ -14,22 +14,23 @@ Herbert Pfennig
 .. class:: summary
 
 I am an Internet handyman with over 14 years of experience working in
-startups. I enjoy solving problems and building infrastructure to get stuff
-done through automation. Over the years I have built up experience in Test
-Automation, Systems and Network Administration, Internal Tools Development
-and Release Engineering.
+startups. If I can be a useful mentor to my colleagues and we can build out
+reliable infrastructure through code commit and automation, there is a good
+chance I am a happy person :)
 
 ------------------------------------------------------------
 skillset
 ------------------------------------------------------------
 
-| **OS:**             Linux, OSX, FreeBSD
-| **Platforms:**      Docker, AWS, GCE, Kubernetes, Virtualbox, VMWare
+| **OS:**             Linux, OSX, FreeBSD, ESXi
+| **IaaS:**           AWS, GCE, Azure (proficient), Alibaba (stay away)
+| **Platforms:**      Docker, Kubernetes, Virtualbox, VMWare
 | **Languages:**      Python, Shell scripting, with some Go, C, C++ etc.
-| **Internet:**       HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP, UDP
-| **Tools:**          Git, Gerrit, Github Enterprise, Jenkins, GNUmake, BSDMake,
-                      Ansible, Terraform, Packer, Sumologic, Datadog, Quay, Minikube
-| **Learning:**       Concourse CI, Go
+| **Networking:**     HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP, UDP
+| **Tools:**          Git, Gerrit, Github Enterprise, Gitlab Enterprise, Jenkins, GNUmake, BSDMake,
+                      Ansible, Terraform, Packer, Sumologic, Wavefront, Grafana, Prometheus, Datadog,
+                      Vault (Transit, Secrets, PKI)
+| **Learning:**       Go
 
 ------------
 employment
@@ -51,9 +52,25 @@ employment
 .. class:: tools
 ..
 
-	Tools: TBD
+	Tools: aws, gce, azure, alibaba, docker, kubernetes (eks), terraform, jenkins, git, packer, python, vault
 
-* TBD
+* Migrated all internal build systems from traditional static node build
+  systems to docker based build environments
+* Deployed and managed build and test infrastructure for multiple cloud
+  providers using Terraform
+* Built out scalable and resource defined build systems using Gitlab
+  runners and AWS EKS
+* Wrote various tools for improving developer workflow including git
+  auto-merge functionality, jira automation to track code commit activity
+  and slack integrations for CI/CD notifications
+* Reduced AWS costs by 70% by implementing strict tagging policies and
+  enforcing resource quotas using AWS lambda functionality
+* Secured IAM user management by migrating to Workspace One IdP (e.g SAML)
+  and enforcing all IAM access through STS (e.g. instance profiles and assume
+  roles)
+* Deployed Vault services (e.g. Transit, Secrets and PKI engines) to
+  implement Secure Release Pipelines (SRP) for things like artifact signing
+  and secure boot infrastructure
 
 .. class:: jobtitle
 ..
@@ -102,7 +119,7 @@ employment
 * Automated developer workflow using GitHub API (auto merge, backport fixes, code linting)
 * Developed and deployed consistent build, dev and test environments on ESXi infrastructure
 * Built CentOS rpm packages and internal install infrastructure for third-party dependencies
-* Trained the orginization with git process and best practices
+* Trained the organization on git process and best practices
 
 .. class:: jobtitle
 ..
