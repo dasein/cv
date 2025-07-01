@@ -13,46 +13,74 @@ Herbert Pfennig
 
 .. class:: summary
 
-I am an Internet handyman with over 14 years of experience working in
-startups. If I can be a useful mentor to my colleagues and we can build out
-reliable infrastructure through code commit and automation, there is a good
-chance I am a happy person :)
+I am an Internet handyman with over 20 years of experience spanning both
+enterprise and startup environments. I thrive on collaborating with
+colleagues to deliver reliable infrastructure through code commit and
+automation, finding fulfillment in mentoring others while developing
+effective solutions together.
 
 ------------------------------------------------------------
 skillset
 ------------------------------------------------------------
 
 | **OS:**             Linux, OSX, FreeBSD, ESXi
-| **IaaS:**           AWS, GCE, Azure (proficient), Alibaba (stay away)
+| **IaaS:**           AWS, GCP, Azure (more proficient), Alibaba (stay away)
 | **Platforms:**      Docker, Kubernetes, Virtualbox, VMWare
 | **Languages:**      Python, Shell scripting, with some Go, C, C++ etc.
 | **Networking:**     HTTP, SMTP, DNS, DHCP, GPXE, TCP/IP, UDP
 | **Tools:**          Git, Gerrit, Github Enterprise, Gitlab Enterprise, Jenkins, GNUmake, BSDMake,
-                      Ansible, Terraform, Packer, Sumologic, Wavefront, Grafana, Prometheus, Datadog,
-                      Vault (Transit, Secrets, PKI)
-| **Learning:**       Go
+                      Ansible, Terraform, Packer, Wavefront, Grafana, Prometheus, Datadog, Splunk
+                      Vault (Transit, Secrets, PKI), Terraform
+| **Learning:**       Go, Crossplane, Backstage
 
 ------------
 employment
 ------------
 
-
 .. class:: jobtitle
 ..
 
-	*[06/2018 - Current]* :: **Staff DevOps Engineer** :: `VMware`_
+	*[09/2022 - Current]* :: **Senior Software Engineer** :: `Splunk`_
 
-	.. _VMware: https://www.vmware.com/
+	.. _Splunk: https://www.splunk.com/
 
 .. class:: notes
 ..
 
-	Current Employment
+	Current Employment. Acquired by Cisco Inc. in 3/2024
 
 .. class:: tools
 ..
 
-	Tools: aws, gce, azure, alibaba, docker, kubernetes (eks), terraform, jenkins, git, packer, python, vault
+	Tools: python, go, aws, gcp, azure, docker, kubernetes, terraform, terragrunt, opa, gitlab pipelines
+
+* Responsible for deployment and expansion of Splunk Cloud Platform across
+  AWS, GCP and Azure platforms for dev stage and prod environments.
+
+* Led multi-cloud expansion and integration efforts for deploying Splunk Cloud
+  Platform CSP resources into Azure and GCP provider platforms.
+
+* Developed reusable Terraform modules to converge on consistent deployment
+  of resources across all CSP's. Used to support 200+ app developers
+
+* Expanded and enhanced enterprise-scale Terraform automation platform used
+  by all application development teams to deploy CSP resources for their
+  services. Write terraform once, deploy to all environments.
+
+* Developed infrastructure governance and automation framework to enable
+  self service deployments for app teams
+
+.. class:: jobtitle
+..
+
+	*[06/2018 - 09/2022]* :: **Staff DevOps Engineer** :: `VMware`_
+
+	.. _VMware: https://www.vmware.com/
+
+.. class:: tools
+..
+
+	Tools: aws, gcp, azure, alibaba, docker, kubernetes (eks), terraform, jenkins, git, packer, python, vault
 
 * Migrated all internal build systems from traditional static node build
   systems to docker based build environments
@@ -87,7 +115,7 @@ employment
 .. class:: tools
 ..
 
-	Tools: aws, gce, docker, kubernetes, minikube, jenkins, git, gerrit, packer, freebsd, alpine linux, go
+	Tools: aws, gcp, docker, kubernetes, minikube, jenkins, git, gerrit, packer, freebsd, alpine linux, go
 
 * Migrated local development and hosted build infrastructure to use a
   Docker based build pipeline
@@ -95,7 +123,7 @@ employment
   infrastructure running in AWS on Kubernetes
 * Implemented a Git precommit workflow with Gerrit and Jenkins for all
   internal repos to ensure code review, code compliance and testing
-* Deployed build and stage architecture in both GCE and AWS for
+* Deployed build and stage architecture in both GCP and AWS for
   our hosted product and build/test environments
 
 .. class:: jobtitle
